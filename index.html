@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <img class="top" src="./images/bg-pattern-top.svg" alt="blue bubble">
+  <img class="bottom" src="./images/bg-pattern-bottom.svg" alt="blue bubble">
 
-  803K
-  Likes
+  <div class="pcard">
+    <div class="card">
+      <img class="bg" src="./images/bg-pattern-card.svg" alt="background design">
+      <img id="profile" src="./images/image-victor.jpg" alt="profile photo">
+      <div class="details">
+        <div class="name">Victor Crest <span class="age">26</span></div>
+        <div class="city">London</div>
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="follows">
+        <table>
+          <thead>
+            <td class="tableHead">
+              80K
+            </td>
+            <td class="tableHead">
+              803K
+            </td>
+            <td class="tableHead">
+              1.4K
+            </td>
+          </thead>
+          <tr>
+            <td class="tableData">Followers</td>
+            <td class="tableData">Likes</td>
+            <td class="tableData">Photos</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #199aa3;
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+
+img {
+  width: 55%;
+  height: auto;
+  /* border: 2px solid white; */
+  position: absolute;
+}
+.top {
+  width: 55%;
+  top: -65%;
+  left:-5%;
+}
+.bottom{
+  bottom: -70%;
+  right: -6%;
+}
+.pcard{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  width: auto;
+}
+.card {
+  background-color: white;
+  width: 16.5rem;
+  height: 17rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+#profile {
+  width: 90px;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: 3.3rem;
+}
+
+.bg {
+  width: 16.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name{
+  z-index: 2;
+  padding-top: 4.25rem;
+  padding-bottom: 0.45rem;
+}
+.age, .tableData ,.city{
+  color: hsl(0, 0%, 59%);
+}
+.city {
+  font-size: small;
+}
+
+.follows {
+  padding: 1.5rem 0;
+}
+.tableHead {
+  font-weight: 800;
+  font-size: small;
+  text-align: center;
+  padding: 0 1rem;
+  color: hsl(229, 23%, 23%);
+}
+.tableData {
+  padding: 0 1rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 8px;
+  letter-spacing: 0.8px;
+  font-stretch: semi-condensed;
+  
+}
