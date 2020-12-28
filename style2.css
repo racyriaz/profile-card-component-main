@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    background-color: #199aa3;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1f1f1f;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid red;
+}
+
+.card {
+    z-index: 2;
+    text-align: center;
+    width: 19rem;
+    height: auto;
+    margin: 50% auto auto;
+}
+
+.card-bg {
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 7rem;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding: 5rem 1rem 1rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+}
+
+.city {
+    color: hsl(227, 10%, 46%);
+    font-size: small;
+    font-weight: 400;
+    padding: 0.5rem 0 3rem;
+}
+
+.details {
+    text-align: center;
+    margin: -1rem 0 0;
+}
+
+.profile-pic {
+    width: 80px;
+    position: relative;
+    border-radius: 49.5%;
+    border: 5px solid white;
+    top: 4.4rem;
+}
+
+table {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tableHead {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 1.25rem;
+}
+
+.tableData {
+    font-size: xx-small;
+    font-weight: 400;
+    padding: 0 1.5rem;
+    color: hsl(0, 0%, 43%);
+}
+
+.bottom-bubble {
+    position: relative;
+    left: 35%;
+    top: -10%;
+}
+
+.top-bubble {
+    position: relative;
+    top: 50%;
+}
